@@ -1,4 +1,5 @@
 # Google_News_Automation_Testing_With_Pyhton_Selenium
+### Given excel file : https://github.com/RaihanMondol/Google_News_Automation_Testing_With_Pyhton_Selenium/tree/main/Web%20Google%20News%20Automation/Given%20excel%20file <br><br><br>
 #TC_001
 1. Open browser
 2. Type url of the taxrise in search bar
