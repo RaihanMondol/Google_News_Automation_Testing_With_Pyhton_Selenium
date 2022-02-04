@@ -1,6 +1,7 @@
 # Google_News_Automation_Testing_With_Pyhton_Selenium
 ### Given excel file : https://github.com/RaihanMondol/Google_News_Automation_Testing_With_Pyhton_Selenium/tree/main/Web%20Google%20News%20Automation/Given%20excel%20file <br><br><br>
-#TC_001
+# Web 001
+## TC_001
 1. Open browser
 2. Type url of the taxrise in search bar
 3. Press Enter 
@@ -24,8 +25,8 @@ driver.close()
 driver.quit()
 
 ```
-
-#TC_2.1
+# Web 002
+## TC_2.1
 1. Click on Search.
 2. Go to Featured topic
 3. Click any topic from Featured topic
@@ -61,7 +62,7 @@ driver.quit()
 
 ```
 
-#TC_2.2
+## TC_2.2
 1. Click on Search.
 2. Go to in the news
 3. Click any topic from latest news
@@ -97,7 +98,7 @@ driver.quit()
 
 ```
 
-#TC_2.3
+## TC_2.3
 Narrow search
 
 
@@ -129,8 +130,8 @@ driver.close()
 driver.quit()
 
 ```
-
-#TC_3.1.1
+# Web 003
+## TC_3.1.1
 1. Click on Headlines
 2. Click on Follow from the top right 
 
@@ -168,7 +169,7 @@ time.sleep(5)
 
 ```
 
-#TC_3.1.2.1
+## TC_3.1.2.1
 1. Click on Headlines
 2. Click on Share
 3. Click on Copy link
@@ -218,7 +219,7 @@ driver.quit()
 
 ```
 
-#TC_3.1.2.2
+## TC_3.1.2.2
 1. Click on Headlines
 2. Click on Share
 3. Click on Facebook.
@@ -258,7 +259,7 @@ driver.quit()
 
 ```
 
-#TC_3.1.2.3
+## TC_3.1.2.3
 1. Click on Headlines
 2. Click on Share
 3. Click on Twitter.
@@ -300,7 +301,7 @@ driver.quit()
 
 ```
 
-#TC_3.2.1
+## TC_3.2.1
 1. Mouse poin to the news tital
 2. News tital show the Save for later
 3. Click on Save for later icone
@@ -340,7 +341,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_3.2.2.1
+## TC_3.2.2.1
 1. Mouse poin to the news tital
 2. News tital show the Share
 3. Click on share icone
@@ -400,7 +401,7 @@ driver.quit()
 
 ```
 
-#TC_3.2.2.2
+## TC_3.2.2.2
 1. Mouse poin to the news tital
 2. News tital show the Share
 3. Click on share icone
@@ -446,7 +447,7 @@ driver.quit()
 
 ```
 
-#TC_3.2.2.3
+## TC_3.2.2.3
 1. Mouse poin to the news tital
 2. News tital show the Share
 3. Click on share icone
@@ -492,7 +493,7 @@ driver.quit()
 
 ```
 
-#TC_3.2.3.1
+## TC_3.2.3.1
 1. Mouse poin to the news tital
 2. News tital show the more icone
 3. Click on more
@@ -537,7 +538,7 @@ driver.quit()
 
 ```
 
-#TC_3.2.3.2
+## TC_3.2.3.2
 1. Mouse poin to the news tital
 2. News tital show the more icone
 3. Click on more
@@ -582,7 +583,7 @@ driver.quit()
 
 ```
 
-#TC_3.2.3.3
+## TC_3.2.3.3
 1. Mouse poin to the news tital
 2. News tital show the more icone
 3. Click on more
@@ -627,7 +628,7 @@ driver.quit()
 
 ```
 
-#TC_3.3.1
+## TC_3.3.1
 1. Go to the weather part
 2. Click on C 
 
@@ -660,7 +661,7 @@ driver.quit()
 
 ```
 
-#TC_3.3.2
+## TC_3.3.2
 1. Go to the weather part
 2. Click on F
 
@@ -692,7 +693,7 @@ driver.quit()
 
 ```
 
-#TC_3.3.3
+## TC_3.3.3
 1. Go to the weather part
 2. Click on K
 
@@ -724,7 +725,7 @@ driver.quit()
 
 ```
 
-#TC_3.3.4
+## TC_3.3.4
 1. Go to the weather part
 2. Click on More on weather.com
 
@@ -755,8 +756,8 @@ driver.quit()
 
 
 ```
-
-#TC_4.1
+# Web 004
+## TC_4.1
 1. Go to the Beyond the headlines 
 2. Mouse poin to the news tital
 3. News tital show the Save for later
@@ -802,7 +803,7 @@ driver.quit()
 
 ```
 
-#TC_4.2.1
+## TC_4.2.1
 1. Click on For you from left side
 2. Mouse poin to the news tital
 3. News tital show the Share
@@ -855,8 +856,8 @@ driver.quit()
 
 
 ```
-
-#TC_5.1
+# Web 005
+## TC_5.1
 Topics & sources
 
 
@@ -883,7 +884,7 @@ driver.quit()
 
 ```
 
-#TC_5.2
+## TC_5.2
 Saved searches
 
 
@@ -910,7 +911,7 @@ driver.quit()
 
 ```
 
-#TC_5.3
+## TC_5.3
 Saves stories
 
 
@@ -936,8 +937,8 @@ driver.close()
 driver.quit()
 
 ```
-
-#TC_006
+# Web 006
+## TC_006
 Saved searches
 
 
@@ -961,8 +962,8 @@ driver.close()
 driver.quit()
 
 ```
-
-#TC_7.1.1
+# Web 007
+## TC_7.1.1
 1. Click on Covid-19 from left side
 2. Mouse poin to the news tital
 3. News tital show the Save for later
@@ -1003,7 +1004,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_7.2.1
+## TC_7.2.1
 1. Click on Covid-19 from left side
 2. Click on Local
 3. Select location from suggested location
@@ -1034,7 +1035,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_7.3.1
+## TC_7.3.1
 1. Click on Covid-19 from left side
 2. Click on International
 3. Select region from suggested region
@@ -1064,8 +1065,8 @@ driver.close()
 driver.quit()
 print("Pass")
 ```
-
-#TC_8.1.1
+# Web 008
+## TC_8.1.1
 1. Click on US from left side
 2. Mouse poin to the news tital
 3. News tital show the Save for later
@@ -1106,7 +1107,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_8.2.1
+## TC_8.2.1
 1. Click on World from left side
 2. Mouse poin to the news tital
 3. News tital show the Save for later
@@ -1147,7 +1148,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_8.3.1
+## TC_8.3.1
 1. Click on Your location news from left side
 2. Select any suggest location
 
@@ -1177,7 +1178,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_8.4.1
+## TC_8.4.1
 Latest
 
 
@@ -1204,7 +1205,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_8.4.2
+## TC_8.4.2
 Economy
 
 
@@ -1232,7 +1233,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_8.4.3
+## TC_8.4.3
 Markets
 
 
@@ -1260,7 +1261,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_8.4.4
+## TC_8.4.4
 Jobs
 
 
@@ -1288,7 +1289,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_8.4.5
+## TC_8.4.5
 Personal Finance
 
 
@@ -1316,7 +1317,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_8.4.6
+## TC_8.4.6
 Enterpreneurship
 
 
@@ -1343,8 +1344,8 @@ driver.close()
 driver.quit()
 print("Pass")
 ```
-
-#TC_9.1
+# Web 009
+## TC_9.1
 1. Click on Language & region from the lest side
 2. Search any language.
 
@@ -1373,7 +1374,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_9.2
+## TC_9.2
 1. Click on Language & region from the lest side
 2. For cencel the pop up click cencel on the pop up.
 
@@ -1400,7 +1401,7 @@ driver.find_element(By.XPATH,'//*[@id="yDmH0d"]/div[11]/div[2]/div/div[2]/button
 
 ```
 
-#TC_9.3
+## TC_9.3
 1. Click on Language & region from the lest side
 2. Select any language.
 3. Click update.
@@ -1434,8 +1435,8 @@ driver.close()
 driver.quit()
 print("Pass")
 ```
-
-#TC_10.1
+# Web 010
+## TC_10.1
 1. Click on Settings from the lest side
 2. Click on manage
 
@@ -1463,7 +1464,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_10.2
+## TC_10.2
 1. Click on Settings from the lest side
 2. Click on View.
 
@@ -1491,7 +1492,7 @@ driver.quit()
 print("Pass")
 ```
 
-#TC_10.3
+## TC_10.3
 1. Click on Settings from the lest side
 2. Click on Dark them box.
 3. Select any one from three ( Default, Always, Never)
@@ -1521,8 +1522,8 @@ driver.close()
 driver.quit()
 print("Pass")
 ```
-
-#TC_011
+# Web 011
+## TC_011
 1. Click on Get the android app from the lest side
 
 
@@ -1546,8 +1547,8 @@ driver.close()
 driver.quit()
 print("Pass")
 ```
-
-#TC_012
+# Web 012
+## TC_012
 1. Click on Get the iOS app from the lest side
 
 
@@ -1570,8 +1571,8 @@ driver.close()
 driver.quit()
 print("Pass")
 ```
-
-#TC_013
+# Web 013
+## TC_013
 1. Click on Send feedback from the lest side
 2. Type some thing
 3. Click cencel/send
@@ -1599,8 +1600,8 @@ driver.close()
 driver.quit()
 print("Pass")
 ```
-
-#TC_014
+# Web 014
+## TC_014
 1. Click on Help from the lest side
 
 
