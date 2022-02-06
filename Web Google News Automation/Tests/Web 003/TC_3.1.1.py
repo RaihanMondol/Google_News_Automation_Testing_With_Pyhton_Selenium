@@ -19,7 +19,7 @@ time.sleep(3)
 driver.find_element(By.XPATH, "//*[@id='yDmH0d']/c-wiz[2]/div/div[2]/c-wiz/div/div[1]/div[2]/div[1]/div").click()
 #sign in
 driver.find_element(By.XPATH,"//*[@id='yDmH0d']/div[12]/div[2]/div/div[2]/div").click()
-driver.find_element(By.XPATH,'//*[@id="identifierId"]').send_keys("perfectb06@gmail.com")
+driver.find_element(By.XPATH,'//*[@id="identifierId"]').send_keys("raihanmondolbd@gmail.com")
 driver.find_element(By.XPATH,'//*[@id="identifierNext"]/div/button').click()
 
 print("Pass")
