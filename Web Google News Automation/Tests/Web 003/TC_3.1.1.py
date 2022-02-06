@@ -11,19 +11,19 @@ driver.maximize_window()
 
 driver.get("https://news.google.com/topstories?hl=en-US&gl=US&ceid=US:en/")
 
-#find search box
-driver.find_element(By.XPATH, "//*[@id='i45']/div[1]/h2/span").click()
+#click headlines
+driver.find_element(By.XPATH,"//*[@id='i44']/div[1]/h2/span/a").click()
 
 time.sleep(3)
 #click follow button
 driver.find_element(By.XPATH, "//*[@id='yDmH0d']/c-wiz[2]/div/div[2]/c-wiz/div/div[1]/div[2]/div[1]/div").click()
 #sign in
-# driver.find_element(By.XPATH,"//*[@id='yDmH0d']/div[12]/div[2]/div/div[2]/div").click()
-# driver.find_element(By.XPATH,'//*[@id="identifierId"]').send_keys("perfectb06@gmail.com")
-# driver.find_element(By.XPATH,'//*[@id="identifierNext"]/div/button').click()
+driver.find_element(By.XPATH,"//*[@id='yDmH0d']/div[12]/div[2]/div/div[2]/div").click()
+driver.find_element(By.XPATH,'//*[@id="identifierId"]').send_keys("perfectb06@gmail.com")
+driver.find_element(By.XPATH,'//*[@id="identifierNext"]/div/button').click()
 
 print("Pass")
 time.sleep(5)
-# driver.close()
-# driver.quit()
+driver.close()
+driver.quit()
 
